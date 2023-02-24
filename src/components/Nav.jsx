@@ -29,6 +29,9 @@ function Nav() {
             <div onMouseEnter={() => {
                     setIsOpen(!isOpen);
                 }} 
+                onClick={() => {
+                    setIsOpen(!isOpen)
+                }}
                 onMouseLeave={() => {
                     setIsOpen(false)
                 }}
@@ -51,8 +54,8 @@ function Nav() {
                             )
                         })
                     }
+                    <Button>Get Started</Button>
                 </ul>
-                <Button>Get Started</Button>
             </div>
     </nav>
   )
