@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { IoLogoIonic } from "react-icons/io"
 import { Spin as Hamburger } from 'hamburger-react'
+import Button from "./Button";
 
 
 function Nav() {
