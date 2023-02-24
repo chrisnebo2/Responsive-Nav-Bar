@@ -51,6 +51,7 @@ function Nav() {
                         })
                     }
                 </ul>
+                <Button>Get Started</Button>
             </div>
     </nav>
   )
